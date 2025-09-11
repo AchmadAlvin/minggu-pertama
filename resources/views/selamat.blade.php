@@ -16,8 +16,8 @@
     
 </head>
 <body>
-    <h1>Selamat Datang Twin</h1>
+    <h1>Selamat Datang Twin🥀</h1>
     <img src="{{ asset('love.png') }}" alt="" width="400">
-    <p>it is what it is.</p>
+    <h2>it is what it is.</h2>
 </body>
 </html>
