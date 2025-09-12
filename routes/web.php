@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/selamat-datang', [WelcomeController::class, 'index']);
+Route::get('/selamat-datang-twin', [WelcomeController::class, 'index']);
