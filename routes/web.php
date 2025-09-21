@@ -11,7 +11,7 @@ Route::get('/selamat-datang-twin', function () {
     return view('selamatDatang');
 });
 
-Route::get('\product', [ProductController::class, 'index']);
+Route::get('/product', [ProductController::class, 'index']);
 
 
 
