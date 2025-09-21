@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -9,3 +10,8 @@ Route::get('/', function () {
 Route::get('/selamat-datang-twin', function () {
     return view('selamatDatang');
 });
+
+Route::get('\product', [ProductController::class, 'index']);
+
+
+
